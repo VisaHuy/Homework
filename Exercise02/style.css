@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:darkcyan;
+    background-color: dimgrey;
+}
+.container{
+    border: solid 1px white;
+    border-radius: 8px;
+    background-color: white;
+    width: 600px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 100px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.head{
+    background-color: #f0f0f0;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+    border: solid whitesmoke 1px ;
+    border-bottom-color: grey 1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}  
+.body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    background-color: white;
+}
+.name{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#fname{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+}
+#lname{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 250px;
+    height: 30px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 510px;
+    height: 30px;
+}
+.password{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#password{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 250px;
+    height: 30px;
+}
+#conpassword{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 250px;
+    height: 30px;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+.gender1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.gen{
+    display: flex;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+}
+.hobbies1{
+    display: flex;
+    gap: 5px;
+    margin-right: 35px;
+}
+.music{
+    display: flex;
+
+}
+.sports{
+    display: flex;
+    
+}
+.travel{
+    display: flex;
+    
+}
+.movies{
+    display: flex;
+    
+}
+.source{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+#source{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 250px;
+    height: 30px;
+}
+.income{
+    display: flex;
+
+}
+#income{
+    width: 200px;
+    height: 30px;
+}
+.item{
+    color: grey;
+    font-weight: 500;
+    font-size: small;
+}
+.k{
+    color: white;
+    width: 50px;
+    height: 25px;
+    border: solid 1px darkcyan;
+    background-color: darkcyan;
+    border-radius: 10%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+#age{
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    width: 250px;
+    height: 30px;
+}
+.bio{
+    margin-left: 35px;
+}
+#bio{
+    width: 520px;
+    height: 100px;
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    overflow-y: scroll;
+}
+.foot{
+    padding: 20px;
+    height: 30px;
+    text-align: end;
+    border: solid whitesmoke 1px ;
+    border-top-color: grey 1px  ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#last{
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    border-radius: 8px;
+    background-color: darkcyan;
+    color: white;
+}
+#last:hover{
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 1px darkcyan;
+    border-radius: 8px;
+    background-color: darkgray;
+    color: white;
+}
